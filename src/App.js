@@ -18,8 +18,7 @@ class App extends Component {
 
     render() {
         return (
-            <div className="">
-                <Router>
+            <Router>
                     <React.Fragment>
                         <Navbar />
                         <Sidebar />
@@ -29,7 +28,6 @@ class App extends Component {
                             </div>
                     </React.Fragment>
                 </Router>
-            </div>
         );
     }
 }
