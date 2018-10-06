@@ -10,7 +10,7 @@ class Main extends React.Component {
         return (
             <div className='main'>
                 <h1>One Component</h1>
-                <button onClick={this.props.setBalance(300)}>Inc balance</button>
+                <button onClick={() => this.props.setBalance(300)}>Inc balance</button>
             </div>
         )
     }
